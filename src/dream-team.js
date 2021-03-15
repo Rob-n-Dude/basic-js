@@ -18,10 +18,7 @@ module.exports = function createDreamTeam(members) {
   catch(e){
     return false
   }
-  
-  if (letters.length == 0){
-    return false
-  }
+
   letters.sort()
   result = ""
   for(lett of letters){
